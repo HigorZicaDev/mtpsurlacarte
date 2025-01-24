@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Bread Sauce Free';
+    src: url('../fonts/Bread Sauce Free.otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../images/bg-grunge1.jpg') no-repeat center;
+    background-size: cover; /* Faz o fundo preencher o elemento */
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.title {
+    font-family: 'Bread Sauce Free';
+    color: #fff;
+    font-size: 54px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.6);
+    display: inline-flex;
+}
+.sub-title {
+    font-family: 'Bread Sauce Free';
+    color: #fff;
+    font-size: 44px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.6);
+    display: inline-flex;
+}
+/* Define o tamanho da pagina total */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carousel {
+    height: 400px; /* Altura padrão */
+    width: 100%;
+    overflow: hidden; /* Garante que nada "vaze" */
+}
+
+.carousel-cell {
+    width: 500px; /* As células ocupam toda a largura do contêiner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 13px 12px 0px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 5px 13px 12px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 5px 13px 12px 0px rgba(0,0,0,0.51);
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 10px; /* Espaçamento entre as células */
+}
+
+.carousel-cell img {
+    max-width: 100%;
+    max-height: 60%;
+    height: 250px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.carousel-text {
+    width: 80%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.limited-text {
+    width: 300px; /* Define a largura do container */
+    overflow: hidden; /* Oculta o conteúdo excedente */
+    white-space: nowrap; /* Evita quebra de linha */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel {
+        height: 350px; /* Ajusta a altura do carrossel */
+        margin: 5px;
+    }
+
+    .carousel-cell {
+        margin: 0 5px; /* Reduz o espaçamento entre células */
+    }
+
+    .carousel-cell img {
+        max-height: 80%; /* Ajusta a altura máxima das imagens */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        height: 350px;
+        margin: 15px;
+    }
+
+    .carousel-cell {
+        margin: 0 2px; /* Espaçamento mínimo */
+    }
+
+    .carousel-cell img {
+        max-height: 70%;
+    }
+}
