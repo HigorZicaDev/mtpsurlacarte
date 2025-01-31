@@ -16,9 +16,10 @@
             <div class="carousel-cell">
                 <img src="{{ evento.img_url }}" alt="Image">
                 <div class="carousel-text">
-                    <h4 class="limited-text">{{ evento.title }}</h4>
-                    <p><strong>{{evento.date}}  - {{evento.time}}</strong></p>
-                    <p><strong>{{evento.price}}</strong></p>
+                    <h4 class="limited-text">Événement : {{ evento.title }}</h4>
+                    <p class="limited-text"><strong>Quand : {{evento.date}}  - {{evento.time_init}} - {{evento.time_end}}</strong></p>
+                    <p class="limited-text"><strong>Prix : {{evento.price}}</strong></p>
+                    <p class="limited-text"><strong>Adresse : {{evento.address}}</strong></p>
                 </div>
             </div>
             {% endfor %}

@@ -1,0 +1,190 @@
+[
+    {
+        "title": "Jeu 23 Jan - Gossip W/ Maxro",
+        "venue": "Le Milk Famous Club",
+        "date": "jeu. 23 janv.",
+        "time": "23:59",
+        "price": "7,99 €",
+        "categories": [
+            "hip hop",
+            "dancehall",
+            "afrobeat"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/shotgun_gossip._Max_xpmbbb.png",
+        "link": "https://shotgun.live/fr/events/jeu-07-nov-gossip-w-krooner-9"
+    },
+    {
+        "title": "Underboum : 2 Salles 2 Ambiances",
+        "venue": "Boum Boum",
+        "date": "jeu. 23 janv.",
+        "time": "23:00",
+        "price": "5,99 €",
+        "categories": [
+            "tech house",
+            "techno",
+            "hard techno"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/SHOTGUN_id7ixb.png",
+        "link": "https://shotgun.live/fr/events/underboum-2-salles-2-ambiances"
+    },
+    {
+        "title": "Orama - Jeudi 23 : Tibo Ksrg",
+        "venue": "Meraki Taverna",
+        "date": "jeu. 23 janv.",
+        "time": "21:00",
+        "price": "4,99 €",
+        "categories": [
+            "house",
+            "afro house",
+            "deep house"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/VISUEL_SHOTGUN_-_TIBO_23_01_drtbby.png",
+        "link": "https://shotgun.live/fr/events/orama-jeudi-23-tibo-ksrg"
+    },
+    {
+        "title": "Jeudi Contest #2",
+        "venue": "DIEZE WAREHOUSE",
+        "date": "jeu. 23 janv.",
+        "time": "23:59",
+        "price": "5,99 €",
+        "categories": [
+            "techno",
+            "hard techno",
+            "hard groove"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/ju_pcxjsj.png",
+        "link": "https://shotgun.live/fr/events/jeudi-contest-2"
+    },
+    {
+        "title": "Dieze Area #22",
+        "venue": "DIEZE WAREHOUSE",
+        "date": "jeu. 23 janv.",
+        "time": "22:00",
+        "price": "Gratuit",
+        "categories": [
+            "hard techno",
+            "techno"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/Bannie%CC%80re_facebook_Dieze_7_qcfrwf.png",
+        "link": "https://shotgun.live/fr/events/dieze-area-22"
+    },
+    {
+        "title": "Casita 23/01 - Représente Ton École",
+        "venue": "CLUB CASITA",
+        "date": "jeu. 23 janv.",
+        "time": "23:00",
+        "price": "8,99 €",
+        "categories": [],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/a2b9e45f-a56a-4b71-8108-0f149eceb43a_cycqng.jpg",
+        "link": "https://shotgun.live/fr/events/casita-23-01-represente-ton-ecole"
+    },
+    {
+        "title": "Techno Family X Germain Rojo X Cyril M X Pz City Club",
+        "venue": "PZ City Club",
+        "date": "jeu. 23 janv.",
+        "time": "23:59",
+        "price": "10,99 €",
+        "categories": [
+            "house",
+            "tech house",
+            "afro house"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/IMG_2992_bviegb.png",
+        "link": "https://shotgun.live/fr/events/my-house-x-germain-rojo-x-cyril-m-x-pz-city-club"
+    },
+    {
+        "title": "Frenetic X Montpellier Techno Invite Roüge",
+        "venue": "DIEZE WAREHOUSE",
+        "date": "ven. 24 janv.",
+        "time": "23:30",
+        "price": "16,99 €",
+        "categories": [
+            "hard techno",
+            "techno"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/Format_Bannie%CC%80re_Frenetic_nuyete.png",
+        "link": "https://shotgun.live/fr/events/frenetic-x-montpellier-techno-invite-rouge"
+    },
+    {
+        "title": "Ven 24 Janv - Shattalicious - Le Kid",
+        "venue": "Le Milk Famous Club",
+        "date": "ven. 24 janv.",
+        "time": "23:59",
+        "price": "10,99 €",
+        "categories": [
+            "afrobeat",
+            "dancehall",
+            "reggaeton"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/Shottgun_Kid_icmhag.png",
+        "link": "https://shotgun.live/fr/events/ven-27-sept-booty-patrol-15"
+    },
+    {
+        "title": "Teenage Mutants X Pz City Club",
+        "venue": "PZ City Club",
+        "date": "ven. 24 janv.",
+        "time": "23:59",
+        "price": "21,00 €",
+        "categories": [
+            "techno",
+            "club",
+            "house"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/IMG_2639_mengvo.png",
+        "link": "https://shotgun.live/fr/events/teenage-mutants-x-pz-city-club"
+    },
+    {
+        "title": "Vendredi 24 : Casita MI Corazon",
+        "venue": "Saint-Jean-De-Védas",
+        "date": "ven. 24 janv.",
+        "time": "23:00",
+        "price": "10,99 €",
+        "categories": [
+            "hip hop",
+            "r&b",
+            "reggaeton"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/BANNIERE_-_VENDREDI_3_suva46.png",
+        "link": "https://shotgun.live/fr/events/event-393960-copy-1728292922778"
+    },
+    {
+        "title": "F2f Modern Rave / Prostcrastination / Omerta",
+        "venue": "DIEZE WAREHOUSE",
+        "date": "sam. 25 janv.",
+        "time": "23:59",
+        "price": "15,99 €",
+        "categories": [
+            "hard techno"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/111c445a-7c2d-4e86-a46f-080a2fcb1927_f1arow.jpg",
+        "link": "https://shotgun.live/fr/events/f-2-f-modern-rave-prostcrastination-omerta"
+    },
+    {
+        "title": "Visions : Party Intime 5",
+        "venue": "Pura Vida Montpellier - Ex La Chichoumeille",
+        "date": "sam. 25 janv.",
+        "time": "19:00",
+        "price": "12,99 €",
+        "categories": [
+            "house",
+            "techno",
+            "tech house"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/COUV_PI_5_a3qp2e.png",
+        "link": "https://shotgun.live/fr/events/visions-party-intime-v"
+    },
+    {
+        "title": "Absolument Chu - 25.01.25 - La Churascaia",
+        "venue": "La Churascaia",
+        "date": "sam. 25 janv.",
+        "time": "23:00",
+        "price": "15,99 €",
+        "categories": [
+            "afro",
+            "afro house",
+            "house"
+        ],
+        "img_url": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/925_01_etncyo.png",
+        "link": "https://shotgun.live/fr/events/absolument-chu-25-01-25-la-churascaia"
+    }
+]

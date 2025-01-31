@@ -13,6 +13,14 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+/* Define o tamanho da pagina total */
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 .title {
     font-family: 'Bread Sauce Free';
     color: #fff;
@@ -22,34 +30,30 @@ body {
          1px -1px 0 #000,
         -1px  1px 0 #000,
          1px  1px 0 #000;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-align: center;
-    background-color: rgba(0, 0, 255, 0.6);
+    background-color: rgb(103 103 103 / 60%);
     display: inline-flex;
+    padding: 5px;
+    border-radius: 10px;
 }
 .sub-title {
     font-family: 'Bread Sauce Free';
     color: #fff;
-    font-size: 44px;
+    font-size: 35px;
     text-shadow: 
         -1px -1px 0 #000,  
          1px -1px 0 #000,
         -1px  1px 0 #000,
          1px  1px 0 #000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    background-color: rgba(0, 0, 255, 0.6);
+    background-color: rgb(103 103 103 / 60%);
     display: inline-flex;
+    padding: 5px;
+    border-radius: 10px;
 }
-/* Define o tamanho da pagina total */
-.container {
-    max-width: 1200px;
-    margin: auto;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .carousel {
     height: 400px; /* Altura padrão */
     width: 100%;
@@ -89,6 +93,9 @@ body {
     overflow: hidden; /* Oculta o conteúdo excedente */
     white-space: nowrap; /* Evita quebra de linha */
     text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+    font-family: 'Poppins', sans-serif;
+    margin: 10px auto;
+    color: #343434;
 }
 /* Responsividade */
 @media (max-width: 768px) {
@@ -97,16 +104,28 @@ body {
         margin: 5px;
     }
 
-    .carousel-cell {
-        margin: 0 5px; /* Reduz o espaçamento entre células */
-    }
+
 
     .carousel-cell img {
-        max-height: 80%; /* Ajusta a altura máxima das imagens */
+        max-width: 100%;
+        max-height: 60%;
+        height: 200px;
+        object-fit: fill;
+        border-radius: 8px;
     }
 }
 
 @media (max-width: 480px) {
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('../images/bg-grunge1.jpg') no-repeat center;
+        background-size: fill !important;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+
     .carousel {
         height: 350px;
         margin: 15px;
@@ -118,5 +137,13 @@ body {
 
     .carousel-cell img {
         max-height: 70%;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+    .sub-title {
+        font-size: 26px;
     }
 }
