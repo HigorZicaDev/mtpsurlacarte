@@ -14,7 +14,7 @@
         <div class="carousel">
             {% for evento in eventos %}
             <div class="carousel-cell">
-                <img src="{{ evento.img_url }}" alt="Image">
+                <img src="{{ evento.image }}" alt="Image">
                 <div class="carousel-text">
                     <h4 class="limited-text">Événement : {{ evento.title }}</h4>
                     <p class="limited-text"><strong>Quand : {{evento.date}}  - {{evento.time_init}} - {{evento.time_end}}</strong></p>

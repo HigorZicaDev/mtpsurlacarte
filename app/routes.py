@@ -75,12 +75,13 @@ def api_events():
 
                 evento_formatado = {
                     "title": evento["title"],
+                    "date": data_evento,
                     "venue": evento["club_name"],
                     "time_init": evento["time_init"],
                     "time_end": evento["time_end"],
                     "price": evento["price"],
                     "categories": evento["categories"],
-                    "img_url": evento["img_url"],
+                    "image": evento["image"],
                     "link": evento["link"],
                     "address": evento["address"],
                     "description": evento["description"],
